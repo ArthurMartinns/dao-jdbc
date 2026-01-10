@@ -43,6 +43,11 @@ public class Program {
 		sellerDao.update(seller);
 		
 		System.out.print("Updated!");
+		
+		System.out.println();
+		
+		sellerDao.deleteById(10);
+		System.out.print("Deleted!");
 	}
 
 }
